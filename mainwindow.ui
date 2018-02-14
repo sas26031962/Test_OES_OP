@@ -1,0 +1,2147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>757</width>
+    <height>813</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">font: 75 8pt &quot;Ubuntu&quot;;</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QGroupBox" name="groupBox_10">
+    <property name="geometry">
+     <rect>
+      <x>1660</x>
+      <y>1340</y>
+      <width>161</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Прослушиваемые порты</string>
+    </property>
+    <widget class="QLineEdit" name="THVListenPort_3">
+     <property name="geometry">
+      <rect>
+       <x>110</x>
+       <y>20</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>51032</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="TVListenPort_3">
+     <property name="geometry">
+      <rect>
+       <x>60</x>
+       <y>20</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>51031</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="CListenPort_3">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>20</y>
+       <width>41</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>51030</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="setListenPorts_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>50</y>
+       <width>51</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Задать</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QTabWidget" name="tabWidget_Main">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>20</y>
+      <width>701</width>
+      <height>711</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>5</number>
+    </property>
+    <widget class="QWidget" name="tab_5">
+     <attribute name="title">
+      <string>Настройки</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_Settings">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>581</width>
+        <height>381</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Настройки</string>
+      </property>
+      <widget class="QGroupBox" name="groupBox_FcsListenPorts">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>301</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>СУО</string>
+       </property>
+       <widget class="QLineEdit" name="THVListenPort">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>80</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>51032</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="CListenPort">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>20</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>51030</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_29">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Порт для ТПВ сообщений</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_31">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Порт сообщений управления</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_30">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>50</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Порт для ТВ сообщений</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="TVListenPort">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>50</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>51031</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="unbindButton">
+        <property name="geometry">
+         <rect>
+          <x>140</x>
+          <y>130</y>
+          <width>91</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Освободить</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="setListenPorts">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>130</y>
+          <width>91</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Применить</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_OesIPAndPorts">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>301</width>
+         <height>171</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>ОЭС ОП</string>
+       </property>
+       <widget class="QLineEdit" name="AimerVideoIP">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>90</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>127.0.0.1</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>IP службы Управления</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="AimerControlIP">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>20</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>127.0.0.1</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="CommanderTVPort">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>110</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>51031</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>50</y>
+          <width>171</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Порт сообщ. управления</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>140</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Порт для ТПВ сообщений</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="AimerCPort">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>50</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>2425</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="AimerTVPort">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>120</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>2425</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="CommanderTHVPort">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>140</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>51032</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="CommanderControlIP">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>20</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>192.168.100.201</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>80</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>IP службы Видеопотока</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="CommanderCPort">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>50</y>
+          <width>51</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>51030</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>110</y>
+          <width>161</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Порт для ТВ сообщений</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="AimerTHVPort">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>150</y>
+          <width>71</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>2425</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="CommanderVideoIP">
+        <property name="geometry">
+         <rect>
+          <x>190</x>
+          <y>80</y>
+          <width>101</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>192.168.102.201</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButtonAimer">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>200</y>
+          <width>131</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Прицел Наводчика</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radioButtonCommander">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>200</y>
+          <width>131</width>
+          <height>17</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Прицел Командира</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_9">
+     <attribute name="title">
+      <string>Входящее сообщение</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_IncomingMessage">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>581</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Входящее сообщение</string>
+      </property>
+      <widget class="QTextBrowser" name="textBrowser">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>271</width>
+         <height>361</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTextBrowser" name="stateDisplay">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>20</y>
+         <width>271</width>
+         <height>361</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="THVDisplay">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>391</y>
+         <width>271</width>
+         <height>161</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QTableWidget" name="TVDisplay">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>391</y>
+         <width>271</width>
+         <height>161</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxHaltTHV">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>560</y>
+         <width>271</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Остановить  журналирование ТПВ потока</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBoxHaltTV">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>560</y>
+         <width>271</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Остановить журналирование ТВ потока</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_10">
+     <attribute name="title">
+      <string>Служба управления</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_ControlService">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>671</width>
+        <height>681</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Служба Управления</string>
+      </property>
+      <widget class="QTabWidget" name="tabWidget">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>240</y>
+         <width>651</width>
+         <height>431</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>3</number>
+       </property>
+       <widget class="QWidget" name="tab">
+        <attribute name="title">
+         <string>Работа</string>
+        </attribute>
+        <widget class="QGroupBox" name="groupBox_Message6_7_8">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>50</y>
+           <width>631</width>
+           <height>351</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Управление движением прицела</string>
+         </property>
+         <widget class="QPushButton" name="sendMessageButton_8">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>190</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Переброс по зад. углам (8)</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="sendMessageButton_7">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>110</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Сопр. по скоростям (7)</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="sendMessageButton_6">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>191</width>
+            <height>31</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Сопр. по углам и скоростям (6)</string>
+          </property>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_11">
+          <property name="geometry">
+           <rect>
+            <x>210</x>
+            <y>20</y>
+            <width>411</width>
+            <height>264</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Параметры сообщений (6/7/8)</string>
+          </property>
+          <widget class="QWidget" name="layoutWidget_2">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>320</width>
+             <height>100</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout">
+            <item row="2" column="2">
+             <widget class="QDoubleSpinBox" name="doubleSpinBoxVertAngle">
+              <property name="decimals">
+               <number>2</number>
+              </property>
+              <property name="minimum">
+               <double>-360.000000000000000</double>
+              </property>
+              <property name="maximum">
+               <double>360.000000000000000</double>
+              </property>
+              <property name="value">
+               <double>0.000000000000000</double>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="2">
+             <widget class="QDoubleSpinBox" name="doubleSpinBoxVertAngularVelocity">
+              <property name="minimum">
+               <double>-180.000000000000000</double>
+              </property>
+              <property name="maximum">
+               <double>179.990000000000009</double>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QDoubleSpinBox" name="doubleSpinBoxHorAngularVelocity">
+              <property name="minimum">
+               <double>-180.000000000000000</double>
+              </property>
+              <property name="maximum">
+               <double>179.990000000000009</double>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QDoubleSpinBox" name="doubleSpinBoxHorAngle">
+              <property name="decimals">
+               <number>2</number>
+              </property>
+              <property name="minimum">
+               <double>-360.000000000000000</double>
+              </property>
+              <property name="maximum">
+               <double>360.000000000000000</double>
+              </property>
+              <property name="value">
+               <double>0.000000000000000</double>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLabel" name="label_24">
+              <property name="text">
+               <string>Гориз.</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_41">
+              <property name="text">
+               <string>Угол,  °:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="2">
+             <widget class="QLabel" name="label_25">
+              <property name="text">
+               <string>Верт.</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignBottom|Qt::AlignHCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QLabel" name="label_39">
+              <property name="text">
+               <string>Углов. скор.,  °/с:</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1" colspan="2">
+             <widget class="QComboBox" name="comboBoxCoordSystem">
+              <item>
+               <property name="text">
+                <string>0 - ССК</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>1 - ЗСК</string>
+               </property>
+              </item>
+             </widget>
+            </item>
+            <item row="0" column="0">
+             <widget class="QLabel" name="label_17">
+              <property name="text">
+               <string>Система координат:</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+          <widget class="QWidget" name="layoutWidget_3">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>160</y>
+             <width>384</width>
+             <height>91</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_2">
+            <item row="1" column="2">
+             <widget class="QLineEdit" name="lineEditExpositionTimeTV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="1">
+             <widget class="QLabel" name="label_20">
+              <property name="text">
+               <string>Фокусное
+расстояние</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="3">
+             <widget class="QLineEdit" name="lineEditAmpTV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QLabel" name="label_18">
+              <property name="text">
+               <string>ТВ</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="4">
+             <widget class="QLineEdit" name="lineEditContrastTV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="lineEditFocusDistanceTV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="2">
+             <widget class="QLabel" name="label_23">
+              <property name="text">
+               <string>Время
+экспозиции </string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="4">
+             <widget class="QLabel" name="label_22">
+              <property name="text">
+               <string>Контрастность</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="0" column="3">
+             <widget class="QLabel" name="label_21">
+              <property name="text">
+               <string>Усиление
+матрицы</string>
+              </property>
+              <property name="alignment">
+               <set>Qt::AlignCenter</set>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QLabel" name="label_19">
+              <property name="text">
+               <string>ТПВ</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="lineEditFocusDistanceTHV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="2">
+             <widget class="QLineEdit" name="lineEditExpositionTimeTHV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="3">
+             <widget class="QLineEdit" name="lineEditAmpTHV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="4">
+             <widget class="QLineEdit" name="lineEditContrastTHV">
+              <property name="text">
+               <string>0</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QCheckBox" name="repeat6">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>80</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Повтор с периодом:</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="repeatPeriod7">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>140</y>
+            <width>59</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="suffix">
+           <string> мс</string>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>50</number>
+          </property>
+          <property name="value">
+           <number>25</number>
+          </property>
+         </widget>
+         <widget class="QCheckBox" name="repeat7">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>140</y>
+            <width>131</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Повтор с периодом:</string>
+          </property>
+         </widget>
+         <widget class="QSpinBox" name="repeatPeriod6">
+          <property name="geometry">
+           <rect>
+            <x>140</x>
+            <y>80</y>
+            <width>59</width>
+            <height>22</height>
+           </rect>
+          </property>
+          <property name="suffix">
+           <string> мс</string>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>50</number>
+          </property>
+          <property name="value">
+           <number>25</number>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="sendMessageButton_17">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>260</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Транспортное положение (17)</string>
+          </property>
+         </widget>
+         <widget class="QPushButton" name="sendMessageButton_5">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>220</y>
+            <width>191</width>
+            <height>21</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Стабилизация (5)</string>
+          </property>
+         </widget>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_10">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>211</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Задать поле зрения (10)</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox10_2">
+         <property name="geometry">
+          <rect>
+           <x>450</x>
+           <y>20</y>
+           <width>174</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>0 – ОПЗ (только для ПК)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1 – ШПЗ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2 – УПЗ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3 – УПЗ x2</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_9">
+         <property name="geometry">
+          <rect>
+           <x>520</x>
+           <y>0</y>
+           <width>31</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>ТПВ</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox10">
+         <property name="geometry">
+          <rect>
+           <x>260</x>
+           <y>20</y>
+           <width>174</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>0 – ОПЗ (только для ПК)</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1 – ШПЗ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2 – УПЗ</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>3 – УПЗ x2</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QLabel" name="label_8">
+         <property name="geometry">
+          <rect>
+           <x>340</x>
+           <y>0</y>
+           <width>31</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>ТВ</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_2">
+        <attribute name="title">
+         <string>Работа - технологический режим</string>
+        </attribute>
+        <widget class="QPushButton" name="sendMessageButton_14">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>70</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Запросить наработку ЛД (14)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_14">
+         <property name="geometry">
+          <rect>
+           <x>370</x>
+           <y>150</y>
+           <width>61</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Значение</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_9">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Запрос диагностики (9)</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_13">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>120</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Запросить наработку ЛЛКУ (13)</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_18">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>170</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Установить параметр (18)</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit18_2">
+         <property name="geometry">
+          <rect>
+           <x>360</x>
+           <y>170</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit18">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>170</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_13">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>150</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Номер</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_4">
+        <attribute name="title">
+         <string>Работа - рабочий режим (Дальномер)</string>
+        </attribute>
+        <widget class="QGroupBox" name="groupBox">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>20</y>
+           <width>621</width>
+           <height>221</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Измерить дальность (11)</string>
+         </property>
+         <widget class="QWidget" name="layoutWidget_4">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>30</y>
+            <width>231</width>
+            <height>160</height>
+           </rect>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_4">
+           <item row="0" column="0">
+            <widget class="QLabel" name="label_12">
+             <property name="text">
+              <string>Максимальное
+количество
+целей</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="2">
+            <widget class="QLabel" name="label_85">
+             <property name="text">
+              <string>м</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="label_16">
+             <property name="text">
+              <string>Строб
+минимальной
+дальности</string>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="lineEdit11">
+             <property name="text">
+              <string>1</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="lineEdit11_2">
+             <property name="text">
+              <string>100</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="label_28">
+             <property name="text">
+              <string>Строб
+максимальной
+дальности</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="lineEdit11_3">
+             <property name="text">
+              <string>1000</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="2">
+            <widget class="QLabel" name="label_86">
+             <property name="text">
+              <string>м</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QPushButton" name="sendMessageButton_11">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>180</y>
+            <width>231</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Измерить дальность (11)</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_3">
+        <attribute name="title">
+         <string>Работа - рабочий режим (УАС)</string>
+        </attribute>
+        <widget class="QGroupBox" name="groupBox_Message22">
+         <property name="geometry">
+          <rect>
+           <x>10</x>
+           <y>10</y>
+           <width>621</width>
+           <height>311</height>
+          </rect>
+         </property>
+         <property name="title">
+          <string>Управление УАС (22)</string>
+         </property>
+         <widget class="QGroupBox" name="groupBox_12">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>20</y>
+            <width>171</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Время замедления</string>
+          </property>
+          <widget class="QLabel" name="label_34">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>46</width>
+             <height>13</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string> КОД1</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit22_slTime1">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>61</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit22_slTime2">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>40</y>
+             <width>61</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_35">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>20</y>
+             <width>46</width>
+             <height>13</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string> КОД2</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_13">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>220</y>
+            <width>171</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>КДО</string>
+          </property>
+          <widget class="QLabel" name="label_37">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>20</y>
+             <width>71</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>угол места</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit22_HorAngle">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>61</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_36">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>20</y>
+             <width>51</width>
+             <height>16</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string> азимут</string>
+           </property>
+          </widget>
+          <widget class="QLineEdit" name="lineEdit22_VertAngle">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>40</y>
+             <width>61</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>0</string>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_14">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>20</y>
+            <width>200</width>
+            <height>281</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Команда управления УАС</string>
+          </property>
+          <widget class="QWidget" name="layoutWidget_5">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>20</y>
+             <width>203</width>
+             <height>275</height>
+            </rect>
+           </property>
+           <layout class="QGridLayout" name="gridLayout_3">
+            <item row="0" column="0">
+             <widget class="QCheckBox" name="checkBox22_1_0">
+              <property name="text">
+               <string>Бит 0 - ВКЛЮЧЕНИЕ ЛЛКУ
+0 – выключено
+1 – включено</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="0">
+             <widget class="QCheckBox" name="checkBox22_1_2">
+              <property name="text">
+               <string>Бит 2 – ПРЕВЫШЕНИЕ
+0 - без превышения
+1 – превышение</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="0">
+             <widget class="QCheckBox" name="checkBox22_1_3">
+              <property name="text">
+               <string>Бит 3 – СХОД
+0 – нет схода
+1 – сход</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="0">
+             <widget class="QCheckBox" name="checkBox22_1_1">
+              <property name="text">
+               <string>Бит 1 – КОД
+0 – код 1
+1 – код 2</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="0">
+             <widget class="QCheckBox" name="checkBox22_1_4">
+              <property name="text">
+               <string>Бит 4 – ВОЗВРАТ
+0 – нет возврата 
+1 – возврат</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+         <widget class="QGroupBox" name="groupBox_15">
+          <property name="geometry">
+           <rect>
+            <x>220</x>
+            <y>120</y>
+            <width>171</width>
+            <height>80</height>
+           </rect>
+          </property>
+          <property name="title">
+           <string>Угол упреждения</string>
+          </property>
+          <widget class="QLabel" name="label_38">
+           <property name="geometry">
+            <rect>
+             <x>100</x>
+             <y>10</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>места</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_88">
+           <property name="geometry">
+            <rect>
+             <x>70</x>
+             <y>40</y>
+             <width>21</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string> °</string>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_11">
+           <property name="geometry">
+            <rect>
+             <x>20</x>
+             <y>10</y>
+             <width>51</width>
+             <height>31</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string>азимут</string>
+           </property>
+          </widget>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox22_HorLeadAngle">
+           <property name="geometry">
+            <rect>
+             <x>10</x>
+             <y>40</y>
+             <width>61</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="decimals">
+            <number>2</number>
+           </property>
+           <property name="minimum">
+            <double>0.000000000000000</double>
+           </property>
+           <property name="maximum">
+            <double>359.990000000000009</double>
+           </property>
+           <property name="value">
+            <double>0.000000000000000</double>
+           </property>
+          </widget>
+          <widget class="QLabel" name="label_89">
+           <property name="geometry">
+            <rect>
+             <x>150</x>
+             <y>40</y>
+             <width>21</width>
+             <height>21</height>
+            </rect>
+           </property>
+           <property name="text">
+            <string> °</string>
+           </property>
+          </widget>
+          <widget class="QDoubleSpinBox" name="doubleSpinBox22_VertLeadAngle">
+           <property name="geometry">
+            <rect>
+             <x>90</x>
+             <y>40</y>
+             <width>61</width>
+             <height>22</height>
+            </rect>
+           </property>
+           <property name="decimals">
+            <number>2</number>
+           </property>
+           <property name="minimum">
+            <double>0.000000000000000</double>
+           </property>
+           <property name="maximum">
+            <double>359.990000000000009</double>
+           </property>
+           <property name="value">
+            <double>0.000000000000000</double>
+           </property>
+          </widget>
+         </widget>
+         <widget class="QPushButton" name="sendMessageButton_22">
+          <property name="geometry">
+           <rect>
+            <x>400</x>
+            <y>20</y>
+            <width>201</width>
+            <height>23</height>
+           </rect>
+          </property>
+          <property name="text">
+           <string>Управление УАС (22)</string>
+          </property>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QTabWidget" name="tabWidget_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>651</width>
+         <height>211</height>
+        </rect>
+       </property>
+       <property name="currentIndex">
+        <number>0</number>
+       </property>
+       <widget class="QWidget" name="tab_6">
+        <attribute name="title">
+         <string>Состояние &quot;Включен&quot; (стр. 1)</string>
+        </attribute>
+        <widget class="QPushButton" name="sendMessageButton_23">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>140</y>
+           <width>231</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Запрос координат визирной оси (23)</string>
+         </property>
+        </widget>
+        <widget class="QComboBox" name="comboBox4">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>20</y>
+           <width>149</width>
+           <height>22</height>
+          </rect>
+         </property>
+         <item>
+          <property name="text">
+           <string>0 - дежурный</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>1 - рабочий</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>2 - технологический</string>
+          </property>
+         </item>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_19">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>100</y>
+           <width>231</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Запросить параметр (19)</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit19">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>100</y>
+           <width>71</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_4">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>231</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Изменить режим работы (4)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_15">
+         <property name="geometry">
+          <rect>
+           <x>290</x>
+           <y>80</y>
+           <width>41</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Номер</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_15">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>60</y>
+           <width>231</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Запросить состояние прицела (15)</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_7">
+        <attribute name="title">
+         <string>Состояние &quot;Включен&quot; (стр. 2)</string>
+        </attribute>
+        <widget class="QPushButton" name="sendMessageButton_21">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>60</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Отключить ТПВ матрицу (21)</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_20">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>20</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Включить ТПВ матрицу (20)</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_16">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>100</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Калибровка ТПВ матрицы (16)</string>
+         </property>
+        </widget>
+       </widget>
+       <widget class="QWidget" name="tab_8">
+        <attribute name="title">
+         <string>Состояние &quot;Включен&quot; (стр. 3)</string>
+        </attribute>
+        <widget class="QPushButton" name="sendMessageButton_12">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>80</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Включить обогрев стекла (12)</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_33">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>10</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Фильтр</string>
+         </property>
+        </widget>
+        <widget class="QPushButton" name="sendMessageButton_3">
+         <property name="geometry">
+          <rect>
+           <x>20</x>
+           <y>30</y>
+           <width>231</width>
+           <height>23</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Установить оптический фильтр (3)</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit12">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>80</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_87">
+         <property name="geometry">
+          <rect>
+           <x>330</x>
+           <y>80</y>
+           <width>21</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>с</string>
+         </property>
+        </widget>
+        <widget class="QLabel" name="label_32">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>60</y>
+           <width>101</width>
+           <height>21</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>Время обогрева</string>
+         </property>
+        </widget>
+        <widget class="QLineEdit" name="lineEdit3">
+         <property name="geometry">
+          <rect>
+           <x>270</x>
+           <y>30</y>
+           <width>51</width>
+           <height>20</height>
+          </rect>
+         </property>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_11">
+     <attribute name="title">
+      <string>Служба видеопотока</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_VideoService">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>661</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Служба Видеопотока</string>
+      </property>
+      <widget class="QPushButton" name="sendMessageButton">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>30</y>
+         <width>231</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string>Включить видеопоток 
+и задать частоту кадров/сжатие (1)</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="sendMessageButton_2">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>80</y>
+         <width>231</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Выключить видеопоток (2)</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit1">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>50</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>50</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit1_2">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>50</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>270</x>
+         <y>30</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Частота кадров</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>30</y>
+         <width>71</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сжатие</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_ChannelSelection">
+       <property name="geometry">
+        <rect>
+         <x>450</x>
+         <y>20</y>
+         <width>179</width>
+         <height>86</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string>Канал</string>
+       </property>
+       <widget class="QWidget" name="layoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>159</width>
+          <height>50</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QRadioButton" name="radioButtonTV">
+           <property name="text">
+            <string>Телевизионный(ТВ)</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QRadioButton" name="radioButtonTHV">
+           <property name="text">
+            <string>Тепловизионный(ТПВ)</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_98">
+       <property name="geometry">
+        <rect>
+         <x>320</x>
+         <y>50</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Гц</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_12">
+     <attribute name="title">
+      <string>Служба журналирования</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>671</width>
+        <height>581</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Служба журналирования</string>
+      </property>
+      <widget class="QTextBrowser" name="textBrowserLog">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>651</width>
+         <height>511</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonClear">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>540</y>
+         <width>85</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Очистить</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButtonSave">
+       <property name="geometry">
+        <rect>
+         <x>100</x>
+         <y>540</y>
+         <width>85</width>
+         <height>26</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Сохранить</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_13">
+     <attribute name="title">
+      <string>Тестирование</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>757</width>
+     <height>20</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
